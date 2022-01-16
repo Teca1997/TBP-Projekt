@@ -24,8 +24,6 @@ namespace APT
             InitializeComponent();
             this.startForm = startForm;
             btnToggleLozinka.Enabled = false;
-            txtBoxEmail.Text = "@.";
-            txtBoxLozinka.Text = "4";
         }
 
         private void btnPovratak_Click(object sender, EventArgs e)
